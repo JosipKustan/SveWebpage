@@ -1,0 +1,151 @@
+@import "./navStyle.css";
+@import "./style.css";
+.heroContainer {
+  margin-top: 120px;
+  width: 100%;
+  height: 450px;
+  background-position: center;
+  background-image: url(../images/heroDaf.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: calc(10% - 8px);
+}
+.hero_h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+  width: 600px;
+  line-height: normal;
+  color: white;
+  text-shadow: 3px 3px 3px var(--black);
+}
+.hero_h1_emphasis {
+  color: var(--sveBlue);
+}
+.servis-button {
+  background-color: var(--sveBlue);
+  border-radius: 8px;
+  width: auto;
+  padding: 0 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.35);
+}
+.servis {
+  max-width: 63px;
+  font-family: "Poppins";
+  font-size: 21px;
+  font-weight: 600;
+  line-height: normal;
+  word-wrap: nowrap;
+  color: white;
+}
+.homepageContent {
+  margin-top: 40px;
+
+  margin: 40px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+}
+.infoContentWrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+  row-gap: 30px;
+  column-gap: 30px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.textWhite {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+.timeText {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+.mapContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+}
+.uslugeWrapperFlex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+}
+.uslugeWrapperContainer {
+  max-width: 700px;
+  height: 670px;
+  display: inline-flexbox;
+  text-align: center;
+}
+
+.uslugeImage {
+  width: 100%;
+  height: auto;
+}
+.truck_img {
+  background-image: url("../images/KamionEngine.jpg");
+}
+.trailer_img {
+  background-image: url("../images/prikolica.jpg");
+}
+.car_img {
+  background-image: url(../images/autoOnDizalica.jpg);
+  background-position: center;
+}
+.partners_img {
+  background-image: url(../images/ReWork/partneri.jpg);
+  background-position: center;
+}
+@media screen and (max-width: 1189px) {
+  .infoContentWrapper {
+    max-width: 700px;
+    flex-direction: row-reverse;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .hero_h1 {
+    font-size: 52px;
+    width: 400px;
+  }
+  .uslugeWrapperContainer {
+    max-width: 700px;
+    height: auto;
+    display: inline-flexbox;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+  .heroContainer {
+    height: 350px;
+  }
+  .hero_h1 {
+    font-size: 38px;
+    width: 240px;
+  }
+  .uslugeWrapperContainer {
+    border: none;
+  }
+}

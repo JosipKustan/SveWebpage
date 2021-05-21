@@ -1,0 +1,95 @@
+.heroContainerAboutUs {
+  margin-top: 120px;
+  width: 100%;
+  height: 250px;
+  background-position: center;
+  background-image: url(../images/heroDaf.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heroContainerServis {
+  margin-top: 120px;
+  width: 100%;
+  height: 210px;
+  background-position: center;
+  background-image: url(../images/heroDaf.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero_h1AboutUs {
+  font-family: "Poppins", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  width: 600px;
+  line-height: normal;
+  color: white;
+  text-shadow: 3px 3px 3px var(--black);
+}
+.contentWrapperAboutUs {
+  display: flex;
+  justify-content: center;
+}
+.contentContainerAboutUs {
+  padding: 40px;
+  max-width: 1300px;
+}
+.FlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.showMoreContainer {
+  text-align: justify;
+  width: 100%;
+  height: 300px;
+}
+ul {
+  list-style-position: inside;
+  list-style-type: none;
+  margin-top: 12px;
+  padding-left: 6px;
+}
+.leftContainer {
+  flex-grow: 2;
+  justify-content: space-evenly;
+}
+.rightContainer {
+  flex-direction: column;
+}
+.video {
+  margin: 12px;
+}
+@media screen and (max-width: 1229px) {
+  .rightContainer {
+    padding-top: 26px;
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .hero_h1AboutUs {
+    font-size: 34px;
+    width: 400px;
+  }
+  .hero_h1Servis {
+    font-size: 28px;
+    width: 300px;
+    height: 170px;
+  }
+}
+@media screen and (max-width: 919px) {
+  .video {
+    width: 80vw;
+    height: calc(80vw * 0.66);
+  }
+}
+@media screen and (max-width: 768px) {
+  .heroContainer {
+    height: 350px;
+  }
+  .hero_h1AboutUs {
+    font-size: 26px;
+    width: 240px;
+  }
+}
