@@ -4,8 +4,6 @@ function showmore(btn_id) {
   var dots = document.getElementById("dots_".concat(idNum));
   var moreText = document.getElementById("more_".concat(idNum));
   var moreDiv = document.getElementById("showDiv_".concat(idNum));
-  console.log(btn_id);
-  console.log(idNum);
   if (dots.style.display === "none") {
     dots.style.display = "inline";
     btnText.innerHTML = "Pročitaj više";

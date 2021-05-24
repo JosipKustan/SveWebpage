@@ -48,7 +48,6 @@
 }
 .homepageContent {
   margin-top: 40px;
-
   margin: 40px;
   padding-bottom: 30px;
   display: flex;
@@ -56,6 +55,17 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 60px;
+}
+.headderText {
+  width: 90%;
+}
+.leftContainerColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
 }
 .infoContentWrapper {
   display: flex;
@@ -65,7 +75,6 @@
   row-gap: 30px;
   column-gap: 30px;
   align-items: center;
-  margin-bottom: 40px;
 }
 .textWhite {
   font-size: 20px;

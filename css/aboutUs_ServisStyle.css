@@ -32,6 +32,11 @@
 .contentContainerAboutUs {
   padding: 40px;
   max-width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 .FlexContainer {
   display: flex;
@@ -57,6 +62,39 @@ ul {
 }
 .rightContainer {
   flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: stretch;
+}
+.partnerContainer {
+  height: 190px;
+  width: 840px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 32px;
+}
+.partnerContainer_row {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.socialContainer {
+  height: 230px;
+  width: 270px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .video {
   margin: 12px;
@@ -65,6 +103,12 @@ ul {
   .rightContainer {
     padding-top: 26px;
     flex-direction: row;
+  }
+  .partnerContainer {
+    display: none;
+  }
+  .toggle {
+    display: block;
   }
 }
 @media screen and (max-width: 1024px) {
