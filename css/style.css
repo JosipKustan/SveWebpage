@@ -77,6 +77,12 @@ h5 {
   font-size: 12px;
   color: white;
 }
+.personInfo {
+  font-size: 12px;
+  color: white;
+  align-items: center;
+  padding-left: 28px;
+}
 .info_italic {
   font-style: italic;
   color: white;
