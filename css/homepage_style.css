@@ -121,7 +121,7 @@
   height: auto;
 }
 .truck_img {
-  background-image: url("../images/KamionEngine.jpg");
+  background-image: url("../images/ReWork/truck.jpg");
 }
 .trailer_img {
   background-image: url("../images/prikolica.jpg");
@@ -131,7 +131,7 @@
   background-position: center;
 }
 .partners_img {
-  background-image: url(../images/ReWork/partneri.jpg);
+  background-image: url(../images/ReWork/partneri2.jpg);
   background-position: center;
 }
 @media screen and (max-width: 1189px) {
