@@ -3,7 +3,17 @@
   width: 100%;
   height: 250px;
   background-position: center;
-  background-image: url(../images/heroDaf.jpg);
+  background-image: url(../images/ReWork/O-nameHero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.heroContainerKontakt {
+  margin-top: 120px;
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-image: url(../images/ReWork/KontaktPic.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }

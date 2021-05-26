@@ -38,7 +38,7 @@
   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.35);
 }
 .servis {
-  max-width: 63px;
+  max-width: 83px;
   font-family: "Poppins";
   font-size: 21px;
   font-weight: 600;
@@ -56,10 +56,19 @@
   justify-content: center;
   gap: 60px;
 }
+.headderTextContainer {
+  margin-top: 40px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 .headderText {
   width: 90%;
+  height: 100%;
 }
 .leftContainerColumn {
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   gap: 20px;
