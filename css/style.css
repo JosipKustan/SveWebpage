@@ -29,7 +29,10 @@ h2 {
 h5 {
   color: var(--sveBlue);
 }
-
+.bodyWrapper {
+  position: relative;
+  overflow-x: hidden;
+}
 .sve_h3 {
   color: var(--sveBlue);
   font-size: 21px;
